@@ -1,5 +1,7 @@
 public class Main{
     public static void main(String[] args) {
-        System.out.println("HI");
+        VideoPlayer video = new VideoPlayer("Run it up", 3);
+        video.play();
+        video.stop();
     }
 }
